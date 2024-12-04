@@ -1,0 +1,11 @@
+@RelatoriosAPI_HostAddress = http://localhost:5112
+
+GET {{RelatoriosAPI_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{RelatoriosAPI_HostAddress}}/todos/1
+Accept: application/json
+
+###
